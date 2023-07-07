@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+:root {
+    --primary-color: rgb(131, 13, 13);
+    --shadow-color: rgb(95, 10, 10);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.navbar {
+    display: flex;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+.nav-brand {
+
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-brand .nav-brand-text {
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-brand .nav-brand-text a {
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.nav-items {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+.nav-brand img {
+    object-fit: contain;
+
+}
+
+.menu li .nav-link {
+    font-size: 20px;
+
+}
+
+.banner {
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+}
+
+.banner-text {
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 95%;
+
+}
+
+.banner-image img:hover {
+    border-top-left-radius: 95%;
+    border-bottom-left-radius: 35%;
+    transition: 0.5s ease;
+}
+
+.banner-title {
+
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title p {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.banner-button-action {
+
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title p {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    ;
+}
+
+
+.services-title {
+
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(131, 13, 13);
+}
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 70%;
+
+}
+
+.services-item {
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 20px -15px var(--shadow-color);
+    margin-left: 25px;
+
+
+}
+
+
+.services-item .services-item-image {
+    width: 80%;
+}
+
+.services-item .services-item-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+
+    &:hover {
+        transform: scale(1.5);
+        transition: 0.5s ease;
+    }
+
+}
+
+.button-action {
+    margin-top: 30px;
+}
+
+.services-item .services-item-image img{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(131, 13, 13);
+}
+
+.Contact {
+    height: max-content 20;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(247, 239, 239) ;
+    background-color: rgb(141, 40, 40);
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+
+}
+.Appel{
+    margin-top: 10%;
+    
+    
+}
+.flo{
+    border: 100% solid green;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.texte{
+    margin-top: 80%;
+    text-align: center;
+    background-color:rgb(197, 193, 193) ;
+    border-radius: 50px;
+
+}
+.para{margin-top: 80%;
+    text-align: center;
+
+}
+.para-img{
+    
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+    background-color: #500808;
+
+
+}
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer p a {
+    color: rgba(0, 0, 0, 0.979)
+}
+.card{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 15px 40px -15px var(--shadow-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS */
+.button-action {
+    color: #ffefef;
+    padding: 15px 25px;
+    border-radius: 100px;
+    background-color: rgb(131, 13, 13);
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    cursor: pointer;
+}
+
+.myBtn {
+    display: none; /* Hidden by default */
+    position: relative; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: rgb(179, 6, 6);
+    cursor: pointer; 
+    padding: 20px; 
+    border-radius: 30px;
+    font-size: 30px;
+  }
+  
+  .myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
