@@ -215,10 +215,19 @@ a {
     border-radius: 20px;
     box-shadow: 0px 15px 40px -15px var(--shadow-color);
 
+    background-color:white;
+    padding: 30px;
+    border-radius: 20px;
+
+
 }
-.Appel{
-    margin-top: 10%;
-    
+
+.section-form input{
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
     
 }
 .flo{
@@ -277,6 +286,42 @@ a {
     border-radius: 15px;
     box-shadow: 0px 15px 40px -15px var(--shadow-color);
 
+}
+
+.body{
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(197, 28, 28);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.form{
+    margin-top: 10px;
+    background-color:white;
+    padding: 100px;
+    border-radius: 10px;
+
+}
+.form h1{
+    font-size: 20px;
+}
+
+form .séparation{
+    width: 100%;
+    
+}
+.form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+.form .cops-formulaire .groupe{
+    margin-top: 20px;
+    
 }
 
 
