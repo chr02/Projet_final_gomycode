@@ -1,98 +1,195 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil | Social Media Digital</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="icon" type="image/png" href="image/smd-log.png" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCMD</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-</head>
-
-<body>
+  <body>
     <!--entete-->
     <header>
-        <main>
-            <nav class="navbar">
-                <div class="nav-brand">
-                    <!-- <img src="./image/negoce.jpg" width="140" alt="image">-->
-                    <div class="nav-brand-text"> <a href="index.html">SMD</a></div>
+      <a href="#" class="logo">
+        <img src="image/smd-log.png" alt="" />
+      </a>
 
-                </div>
-                <div class=" nav-items">
-                    <ul class="menu">
-                        <li class="menu-item"><a href="index.html" class="nav-link">Acceuil</a></li>
-                        <li class="menu-item"><a href="Inscription.html" class="nav-link">Inscription</a></li>
-                        <li class="menu-item"><a href="Contact.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
-            </nav>
-            <main> 
+      <ul class="navbar">
+        <li><a href="index.html" class="active">Acceuil</a></li>
+        <li><a href="#services">Nos Services</a></li>
+        <li><a href="#contact">Contactez-Nous</a></li>
+      </ul>
     </header>
+    <!--fin entete-->
 
-  
-        <section class="banner">
-            <div class="banner-text">
-                <div class="banner-title">
-                    <p>Bienvenue dans l'univers du marketing digital!</p>
-                </div>
-                <div class="banner-button-action">
-                    <!-- button !-->
-                    <button class="button-action" role="button">Contactez-nous</button>
-                </div>
-            </div>
-            <div class="banner-image">
-                <img src="./image/DigitM.jpg" alt="Digit">
-            </div>
-        </section>
-        <section class="services">
-            <div class="services-title">
-                <h1> Nos services</h1>
-            </div>
-            <div class="services-items">
-                <div class="services-item">
-                    <div class="services-item-image">
-                        <img src="./image/Web.png" alt="web">
-                        <p>STRATEGIE DIGITALE</p>
-                    </div>
-                    <div class="banner-button-action">
-                        <!-- button !-->
-                        <button class="button-action" role="button">clik</button>
-                    </div>
-                </div>
-                <div class="services-item">
-                    <div class="services-item-image">
-                        <img src="./image/media-buying1.jpg" alt="media">
-                        <p>MEDIA BUYING</p>
-                    </div>
-                    <div class="banner-button-action">
-                        <!-- button !-->
-                        <button class="button-action" role="button">Click</button>
-                    </div>
-                </div>
-                <div class="services-item">
-                    <div class="services-item-image">
-                        <img src="./image/socialMedia.jpg" alt="social">
-                        <p>SOCIAL MEDIA</p>
-                    </div>
-                    <div class="banner-button-action">
-                        <!-- button !-->
-                        <button class="button-action" role="button">click</button>
-                    </div>
-                </div>
-            </div>
+    <!--main section -->
+    <main>
+      <!-- Banner start -->
+      <section class="banner" id="banner">
+        <div class="banner-text">
+          <span>Bienvenu(e) chez</span>
+          <div class="fade-in-left">
+            <h1>Social Media Digital</h1>
+            <h2>
+              Vous fournir le meilleur produit<br />
+              est notre mission principale!
+            </h2>
+          </div>
+          <a href="#" class="btn">Rejoignez-Nous</a>
+        </div>
+        <div class="banner-image">
+          <img src="image/banner-image.jpg" alt="" />
+        </div>
+      </section>
+      <!-- Banner end -->
 
-        </section>
+      <!-- Services start -->
+      <section class="services" id="services">
+        <div class="heading">
+          <span>Nos Services</span>
+          <h1>Consulter nos services</h1>
+        </div>
+        <div class="service-container">
+          <div class="box">
+            <div class="box-image">
+              <img src="image/social.jpg" alt="" />
+            </div>
+            <h2>Social Media</h2>
+            <p>
+              <strong>Gestion de compte social</strong> : Gestion complète des comptes de réseaux sociaux, y compris la
+              création de contenu, la planification des publications, la gestion
+              des interactions avec les utilisateurs, et le suivi des analyses
+              de performance.
+            </p>
+            <p>
+              <strong>Stratégie de médias sociaux</strong> : Elaborer une
+              stratégie de médias sociaux efficace en fonction de vos
+              objectifs commerciaux. 
+            </p>
+            <a href="#" class="btn">Contactez-Nous</a>
+          </div>
+          <div class="box">
+            <div class="box-image">
+              <img src="image/web.jpg" alt="" />
+            </div>
+            <h2>Redaction Web</h2>
+            <p><strong>Rédaction d'articles de blog</strong> : Rédaction d'articles de blog informatifs, engageants et optimisés pour les moteurs de recherche.</p>
+            <p><strong>Emails et newsletters</strong> : Créer des emails et des newsletters captivants pour vos campagnes de marketing par courriel.</p>
+            <p><strong>Contenu de site web</strong> : Créer du contenu percutant pour vos sites web </p>
+            <a href="#" class="btn">Contactez-Nous</a>
+          </div>
+          <div class="box">
+            <div class="box-image">
+              <img src="image/mark.jpg" alt="" />
+            </div>
+            <h2>Marketing Digital</h2>
+            <p><strong>Rédaction d'articles de blog</strong> : Rédaction d'articles de blog informatifs, engageants et optimisés pour les moteurs de recherche.</p>
+            <p><strong>Emails et newsletters</strong> : Créer des emails et des newsletters captivants pour vos campagnes de marketing par courriel.</p>
+            <p><strong>Contenu de site web</strong> : Créer du contenu percutant pour vos sites web </p>
+            <a href="#" class="btn">Contactez-Nous</a>
+          </div>
+        </div>
+      </section>
+      <!-- Services end -->
+
+      <!-- Promote or Ads start-->
+      <section class="ads">
+        <div class="heading">
+          <span>Notre Offre</span>
+          <h1>Incroyable! 50% De Reduction pour vous ce mois</h1>
+        </div>
+        <div class="offer-container">
+          <div class="offer-image">
+            <img src="image/bar.jpg" alt="" />
+          </div>
+          <div class="offer-text">
+            <h2>
+              Ajourd'hui faire connaitre son besoin digital devient un jeu
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              eveniet ea temporibus veritatis a, ut quidem expedita. Dolore
+              nobis odio totam consequatur hic. Nihil dolore eum error quos, ex
+              ut.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              fugiat molestias, perferendis veniam voluptas similique ad sequi
+              nostrum tempora hic et ex exercitationem dignissimos consequuntur
+              explicabo praesentium nihil voluptate sint?
+            </p>
+            <div class="offer-btn">
+              <a href="#" class="btn">Rendez-vous</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Promote or Ads End-->
+
+      <!-- About start -->
+      <section class="about" id="about">
+        <div class="youtube">
+          <iframe
+            width="1060"
+            height="415"
+            src="https://www.youtube.com/embed/i-p7ydVPfgo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- About end -->
+
+      <section class="contact" id="contact">
+        <div class="heading">
+            <h1>Contactez Nous</h1>
+          </div>
+        <div class="contact-container">
+            <div class="contact-box">
+                <div class="right">
+                    <form method="post">
+                        <input type="text" class="field" placeholder="Votre Nom" required>
+                        <input type="email" class="field" placeholder="Votre Email" required>
+                        <input type="text" class="field" placeholder="Votre Telephone" required>
+                        <textarea class="field" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
     </main>
+    <!--fin main section -->
+
     <!--debut du pied de page-->
     <footer>
-        <div class="footer">
-            <p> Abidjan , cocody <a href="https://Gomycode.com">Gomycode</a></p>
-
-        </div>
+      <div class="social">
+        <a href="#">
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-youtube"></i>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Our Company</a>
+      </div>
+      <p>&#169; Social Media Digital All Right Reserverd</p>
     </footer>
     <!--fin du pied de page-->
 
-</body>
-
+    <script src="js/main.js"></script>
+    <script src="js/banner.js"></script>
+  </body>
 </html>
